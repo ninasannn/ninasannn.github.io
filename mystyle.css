@@ -1,19 +1,18 @@
 body {
     background-color: rgb(83, 97, 126);               
     text-align: center;
-    font-family: monospace;
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
-    
+
 nav {
     background-color: rgb(43, 43, 43);
     padding: 10px;
     text-align: center;
 }
-    
+
 nav a {
     display: inline-block;
     text-decoration: none;
@@ -21,25 +20,23 @@ nav a {
     padding: 10px;
     margin-right: 10px;
 }
-    
+
 nav a:hover {
     background-color: #202020;
     color: #fff;
 }
-    
+
 h1 {
     text-align: center;
     margin-top: 30px;
 }
-    
+
 iframe {
     display: block;
     margin: 0 auto;
 }
-    
+
 p {
     text-align: center;
     margin-top: 20px;
 }
-
-

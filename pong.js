@@ -30,7 +30,7 @@ function moveBall() {
 
 function draw() {
     canvasContext.clearRect(0, 0, canvas.width, canvas.height);
-    canvasContext.fillStyle = "black";
+    canvasContext.fillStyle = "grey";
     canvasContext.fillRect(0, 0, canvas.width, canvas.height);
     drawBall();
 }
@@ -39,3 +39,4 @@ setInterval(function() {
     moveBall();
     draw();
 }, 30);
+
